@@ -1,6 +1,5 @@
 body{
   background-color: brown;
-  background-image: url("penguins.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: rgb(244, 93, 93);
@@ -22,4 +21,17 @@ p{
   border-radius: 20px;
   size: 10%;
   text-size-adjust: 40px;
+}
+button{
+  color: whitesmoke;
+  background-color: black;
+  border: 5px;
+  border-radius: 7px;
+  cursor: pointer;
+  height: 50px;
+  width: fit-content;
+}
+input{
+  height: 100px;
+  width: 650px;
 }
