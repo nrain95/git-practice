@@ -1,6 +1,6 @@
 body{
-  background-color: brown;
-  background-repeat: no-repeat;
+  background-color: rgba(110, 7, 98, 0.959);
+  background-image: url("desert.jpg");
   background-size: cover;
   color: rgb(244, 93, 93);
   margin: 40px;
@@ -8,23 +8,58 @@ body{
 h1{
   text-align: center;
   color: blue;
+  font-size: 60px;
 }
 h3{
-  background-color: firebrick;
+  background-color: rgb(163, 203, 16);
   color: black;
-  text-align: justify;
-  text-size-adjust: 65px;
+  font-size: 60px;
+  cursor: pointer;
+}
+h3:hover{
+  color: royalblue;
+  font-size: 100px;
 }
 p{
   margin: 100px;
   border: 3px solid red;
   border-radius: 20px;
-  size: 10%;
-  text-size-adjust: 40px;
+  font-size: 25px;
+}
+.tutorial{
+  margin: 10px;
+  border: none;
+  font-size: 30px;
+  color: white;
+}
+.tutorial::before{
+  content: "✔";
+}
+#ex{
+  border: none;
+  font-size: 50px;
+  color: goldenrod;
+  margin: 10px;
+}
+.list{
+  font-size: 20px;
+  color: greenyellow;
+  margin: 25px;
+  border: 10px red;
+  border-radius: 10px ;
+  background-color: blue;
+  border-style:groove; 
+}
+li{
+  border: 5px solid red;
+}
+li:hover{
+  font-size: 50px;
+  cursor: pointer;
 }
 button{
-  color: whitesmoke;
-  background-color: black;
+  color: white;
+  background-color: green;
   border: 5px;
   border-radius: 7px;
   cursor: pointer;
@@ -33,5 +68,13 @@ button{
 }
 input{
   height: 100px;
+  width: 400px;
+  margin-right: 10px;
+}
+input:focus{
+  height: 150px;
   width: 650px;
+  cursor: pointer;
+  font-size: larger;
+  background-color: purple;
 }
